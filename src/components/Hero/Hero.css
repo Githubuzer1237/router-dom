@@ -1,0 +1,28 @@
+.hero__wrapper {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    flex-wrap: wrap;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+}
+.hero__btn {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    background-color: burlywood;
+    width: 100px;
+}
+.hero__img {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+}
